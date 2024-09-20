@@ -1,0 +1,10 @@
+[project]
+name = "sphinx-paramlinks-sphinx-autoapi-compat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sphinx-paramlinks>=0.6.0",
+    "sphinx>=8.0.2",
+]

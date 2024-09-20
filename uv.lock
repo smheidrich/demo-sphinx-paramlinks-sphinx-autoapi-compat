@@ -1,0 +1,276 @@
+version = 1
+requires-python = ">=3.12"
+
+[[package]]
+name = "alabaster"
+version = "1.0.0"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/c00/dca57bca26fa6/alabaster-1.0.0.tar.gz", hash = "sha256:c00dca57bca26fa62a6d7d0a9fcce65f3e026e9bfe33e9c538fd3fbb2144fd9e" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/fc6/786402dc3fcb2/alabaster-1.0.0-py3-none-any.whl", hash = "sha256:fc6786402dc3fcb2de3cabd5fe455a2db534b371124f1f21de8731783dec828b" },
+]
+
+[[package]]
+name = "babel"
+version = "2.16.0"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/d1f/3554ca26605fe/babel-2.16.0.tar.gz", hash = "sha256:d1f3554ca26605fe173f3de0c65f750f5a42f924499bf134de6423582298e316" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/368/b5b98b37c06b7/babel-2.16.0-py3-none-any.whl", hash = "sha256:368b5b98b37c06b7daf6696391c3240c938b37767d4584413e8438c5c435fa8b" },
+]
+
+[[package]]
+name = "certifi"
+version = "2024.8.30"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/bec/941d2aa8195e2/certifi-2024.8.30.tar.gz", hash = "sha256:bec941d2aa8195e248a60b31ff9f0558284cf01a52591ceda73ea9afffd69fd9" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/922/820b53db7a725/certifi-2024.8.30-py3-none-any.whl", hash = "sha256:922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8" },
+]
+
+[[package]]
+name = "charset-normalizer"
+version = "3.3.2"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/f30/c3cb33b24454a/charset-normalizer-3.3.2.tar.gz", hash = "sha256:f30c3cb33b24454a82faecaf01b19c18562b1e89558fb6c56de4d9118a032fd5" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/0b2/b64d2bb6d3fb9/charset_normalizer-3.3.2-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:0b2b64d2bb6d3fb9112bafa732def486049e63de9618b5843bcdd081d8144cd8" },
+    { url = "http://localhost:3141/root/pypi/+f/ddb/b2551d7e0102e/charset_normalizer-3.3.2-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:ddbb2551d7e0102e7252db79ba445cdab71b26640817ab1e3e3648dad515003b" },
+    { url = "http://localhost:3141/root/pypi/+f/550/86ee106421578/charset_normalizer-3.3.2-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:55086ee1064215781fff39a1af09518bc9255b50d6333f2e4c74ca09fac6a8f6" },
+    { url = "http://localhost:3141/root/pypi/+f/8f4/a014bc36d3c57/charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:8f4a014bc36d3c57402e2977dada34f9c12300af536839dc38c0beab8878f38a" },
+    { url = "http://localhost:3141/root/pypi/+f/a10/af20b82360ab0/charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:a10af20b82360ab00827f916a6058451b723b4e65030c5a18577c8b2de5b3389" },
+    { url = "http://localhost:3141/root/pypi/+f/8d7/56e44e94489e4/charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:8d756e44e94489e49571086ef83b2bb8ce311e730092d2c34ca8f7d925cb20aa" },
+    { url = "http://localhost:3141/root/pypi/+f/90d/558489962fd49/charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:90d558489962fd4918143277a773316e56c72da56ec7aa3dc3dbbe20fdfed15b" },
+    { url = "http://localhost:3141/root/pypi/+f/6ac/7ffc7ad6d0405/charset_normalizer-3.3.2-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:6ac7ffc7ad6d040517be39eb591cac5ff87416c2537df6ba3cba3bae290c0fed" },
+    { url = "http://localhost:3141/root/pypi/+f/7ed/9e526742851e8/charset_normalizer-3.3.2-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:7ed9e526742851e8d5cc9e6cf41427dfc6068d4f5a3bb03659444b4cabf6bc26" },
+    { url = "http://localhost:3141/root/pypi/+f/8bd/b58ff7ba23002/charset_normalizer-3.3.2-cp312-cp312-musllinux_1_1_i686.whl", hash = "sha256:8bdb58ff7ba23002a4c5808d608e4e6c687175724f54a5dade5fa8c67b604e4d" },
+    { url = "http://localhost:3141/root/pypi/+f/6b3/251890fff30ee/charset_normalizer-3.3.2-cp312-cp312-musllinux_1_1_ppc64le.whl", hash = "sha256:6b3251890fff30ee142c44144871185dbe13b11bab478a88887a639655be1068" },
+    { url = "http://localhost:3141/root/pypi/+f/b4a/23f61ce87adf8/charset_normalizer-3.3.2-cp312-cp312-musllinux_1_1_s390x.whl", hash = "sha256:b4a23f61ce87adf89be746c8a8974fe1c823c891d8f86eb218bb957c924bb143" },
+    { url = "http://localhost:3141/root/pypi/+f/efc/b3f6676480691/charset_normalizer-3.3.2-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:efcb3f6676480691518c177e3b465bcddf57cea040302f9f4e6e191af91174d4" },
+    { url = "http://localhost:3141/root/pypi/+f/d96/5bba47ddeec8c/charset_normalizer-3.3.2-cp312-cp312-win32.whl", hash = "sha256:d965bba47ddeec8cd560687584e88cf699fd28f192ceb452d1d7ee807c5597b7" },
+    { url = "http://localhost:3141/root/pypi/+f/96b/02a3dc4381e54/charset_normalizer-3.3.2-cp312-cp312-win_amd64.whl", hash = "sha256:96b02a3dc4381e5494fad39be677abcb5e6634bf7b4fa83a6dd3112607547001" },
+    { url = "http://localhost:3141/root/pypi/+f/3e4/d1f6587322d27/charset_normalizer-3.3.2-py3-none-any.whl", hash = "sha256:3e4d1f6587322d2788836a99c69062fbb091331ec940e02d12d179c1d53e25fc" },
+]
+
+[[package]]
+name = "colorama"
+version = "0.4.6"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/086/95f5cb7ed6e05/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/4f1/d9991f5acc0ca/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6" },
+]
+
+[[package]]
+name = "docutils"
+version = "0.21.2"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/3a6/b18732edf182d/docutils-0.21.2.tar.gz", hash = "sha256:3a6b18732edf182daa3cd12775bbb338cf5691468f91eeeb109deff6ebfa986f" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/daf/ca5b9e384f0e4/docutils-0.21.2-py3-none-any.whl", hash = "sha256:dafca5b9e384f0e419294eb4d2ff9fa826435bf15f15b7bd45723e8ad76811b2" },
+]
+
+[[package]]
+name = "idna"
+version = "3.10"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/12f/65c9b470abda6/idna-3.10.tar.gz", hash = "sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/946/d195a0d259cbb/idna-3.10-py3-none-any.whl", hash = "sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3" },
+]
+
+[[package]]
+name = "imagesize"
+version = "1.4.1"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/691/50444affb9cb0/imagesize-1.4.1.tar.gz", hash = "sha256:69150444affb9cb0d5cc5a92b3676f0b2fb7cd9ae39e947a5e11a36b4497cd4a" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/0d8/d18d08f840c19/imagesize-1.4.1-py2.py3-none-any.whl", hash = "sha256:0d8d18d08f840c19d0ee7ca1fd82490fdc3729b7ac93f49870406ddde8ef8d8b" },
+]
+
+[[package]]
+name = "jinja2"
+version = "3.1.4"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+dependencies = [
+    { name = "markupsafe" },
+]
+sdist = { url = "http://localhost:3141/root/pypi/+f/4a3/aee7acbbe7303/jinja2-3.1.4.tar.gz", hash = "sha256:4a3aee7acbbe7303aede8e9648d13b8bf88a429282aa6122a993f0ac800cb369" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/bc5/dd2abb727a531/jinja2-3.1.4-py3-none-any.whl", hash = "sha256:bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d" },
+]
+
+[[package]]
+name = "markupsafe"
+version = "2.1.5"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/d28/3d37a890ba4c1/MarkupSafe-2.1.5.tar.gz", hash = "sha256:d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/8de/c4936e9c31001/MarkupSafe-2.1.5-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:8dec4936e9c3100156f8a2dc89c4b88d5c435175ff03413b443469c7c8c5f4d1" },
+    { url = "http://localhost:3141/root/pypi/+f/3c6/b973f22eb18a7/MarkupSafe-2.1.5-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:3c6b973f22eb18a789b1460b4b91bf04ae3f0c4234a0a6aa6b0a92f6f7b951d4" },
+    { url = "http://localhost:3141/root/pypi/+f/ac0/7bad82163452a/MarkupSafe-2.1.5-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:ac07bad82163452a6884fe8fa0963fb98c2346ba78d779ec06bd7a6262132aee" },
+    { url = "http://localhost:3141/root/pypi/+f/f5d/fb42c4604dddc/MarkupSafe-2.1.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f5dfb42c4604dddc8e4305050aa6deb084540643ed5804d7455b5df8fe16f5e5" },
+    { url = "http://localhost:3141/root/pypi/+f/ea3/d8a3d18833cf4/MarkupSafe-2.1.5-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:ea3d8a3d18833cf4304cd2fc9cbb1efe188ca9b5efef2bdac7adc20594a0e46b" },
+    { url = "http://localhost:3141/root/pypi/+f/d05/0b3361367a06d/MarkupSafe-2.1.5-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:d050b3361367a06d752db6ead6e7edeb0009be66bc3bae0ee9d97fb326badc2a" },
+    { url = "http://localhost:3141/root/pypi/+f/bec/0a414d016ac1a/MarkupSafe-2.1.5-cp312-cp312-musllinux_1_1_i686.whl", hash = "sha256:bec0a414d016ac1a18862a519e54b2fd0fc8bbfd6890376898a6c0891dd82e9f" },
+    { url = "http://localhost:3141/root/pypi/+f/58c/98fee265677f6/MarkupSafe-2.1.5-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:58c98fee265677f63a4385256a6d7683ab1832f3ddd1e66fe948d5880c21a169" },
+    { url = "http://localhost:3141/root/pypi/+f/859/0b4ae07a35970/MarkupSafe-2.1.5-cp312-cp312-win32.whl", hash = "sha256:8590b4ae07a35970728874632fed7bd57b26b0102df2d2b233b6d9d82f6c62ad" },
+    { url = "http://localhost:3141/root/pypi/+f/823/b65d8706e32ad/MarkupSafe-2.1.5-cp312-cp312-win_amd64.whl", hash = "sha256:823b65d8706e32ad2df51ed89496147a42a2a6e01c13cfb6ffb8b1e92bc910bb" },
+]
+
+[[package]]
+name = "packaging"
+version = "24.1"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/026/ed72c8ed3fcce/packaging-24.1.tar.gz", hash = "sha256:026ed72c8ed3fcce5bf8950572258698927fd1dbda10a5e981cdf0ac37f4f002" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/5b8/f2217dbdbd2f7/packaging-24.1-py3-none-any.whl", hash = "sha256:5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124" },
+]
+
+[[package]]
+name = "pygments"
+version = "2.18.0"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/786/ff802f32e9131/pygments-2.18.0.tar.gz", hash = "sha256:786ff802f32e91311bff3889f6e9a86e81505fe99f2735bb6d60ae0c5004f199" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/b8e/6aca0523f3ab7/pygments-2.18.0-py3-none-any.whl", hash = "sha256:b8e6aca0523f3ab76fee51799c488e38782ac06eafcf95e7ba832985c8e7b13a" },
+]
+
+[[package]]
+name = "requests"
+version = "2.32.3"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+dependencies = [
+    { name = "certifi" },
+    { name = "charset-normalizer" },
+    { name = "idna" },
+    { name = "urllib3" },
+]
+sdist = { url = "http://localhost:3141/root/pypi/+f/553/65417734eb182/requests-2.32.3.tar.gz", hash = "sha256:55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/707/61cfe03c773ce/requests-2.32.3-py3-none-any.whl", hash = "sha256:70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6" },
+]
+
+[[package]]
+name = "snowballstemmer"
+version = "2.2.0"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/09b/16deb8547d341/snowballstemmer-2.2.0.tar.gz", hash = "sha256:09b16deb8547d3412ad7b590689584cd0fe25ec8db3be37788be3810cbf19cb1" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/c8e/1716e83cc398a/snowballstemmer-2.2.0-py2.py3-none-any.whl", hash = "sha256:c8e1716e83cc398ae16824e5572ae04e0d9fc2c6b985fb0f900f5f0c96ecba1a" },
+]
+
+[[package]]
+name = "sphinx"
+version = "8.0.2"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+dependencies = [
+    { name = "alabaster" },
+    { name = "babel" },
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+    { name = "docutils" },
+    { name = "imagesize" },
+    { name = "jinja2" },
+    { name = "packaging" },
+    { name = "pygments" },
+    { name = "requests" },
+    { name = "snowballstemmer" },
+    { name = "sphinxcontrib-applehelp" },
+    { name = "sphinxcontrib-devhelp" },
+    { name = "sphinxcontrib-htmlhelp" },
+    { name = "sphinxcontrib-jsmath" },
+    { name = "sphinxcontrib-qthelp" },
+    { name = "sphinxcontrib-serializinghtml" },
+]
+sdist = { url = "http://localhost:3141/root/pypi/+f/0cc/e1ddcc4fd3532/sphinx-8.0.2.tar.gz", hash = "sha256:0cce1ddcc4fd3532cf1dd283bc7d886758362c5c1de6598696579ce96d8ffa5b" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/561/73572ae6c1b9a/sphinx-8.0.2-py3-none-any.whl", hash = "sha256:56173572ae6c1b9a38911786e206a110c9749116745873feae4f9ce88e59391d" },
+]
+
+[[package]]
+name = "sphinx-paramlinks"
+version = "0.6.0"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+dependencies = [
+    { name = "docutils" },
+    { name = "sphinx" },
+]
+sdist = { url = "http://localhost:3141/root/pypi/+f/746/a0816860aa3ff/sphinx-paramlinks-0.6.0.tar.gz", hash = "sha256:746a0816860aa3fff5d8d746efcbec4deead421f152687411db1d613d29f915e" }
+
+[[package]]
+name = "sphinx-paramlinks-sphinx-autoapi-compat"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "sphinx" },
+    { name = "sphinx-paramlinks" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "sphinx", specifier = ">=8.0.2" },
+    { name = "sphinx-paramlinks", specifier = ">=0.6.0" },
+]
+
+[[package]]
+name = "sphinxcontrib-applehelp"
+version = "2.0.0"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/2f2/9ef331735ce95/sphinxcontrib_applehelp-2.0.0.tar.gz", hash = "sha256:2f29ef331735ce958efa4734873f084941970894c6090408b079c61b2e1c06d1" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/4cd/3f0ec4ac5dd9c/sphinxcontrib_applehelp-2.0.0-py3-none-any.whl", hash = "sha256:4cd3f0ec4ac5dd9c17ec65e9ab272c9b867ea77425228e68ecf08d6b28ddbdb5" },
+]
+
+[[package]]
+name = "sphinxcontrib-devhelp"
+version = "2.0.0"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/411/f5d96d445d1d7/sphinxcontrib_devhelp-2.0.0.tar.gz", hash = "sha256:411f5d96d445d1d73bb5d52133377b4248ec79db5c793ce7dbe59e074b4dd1ad" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/aef/b8b83854e4b09/sphinxcontrib_devhelp-2.0.0-py3-none-any.whl", hash = "sha256:aefb8b83854e4b0998877524d1029fd3e6879210422ee3780459e28a1f03a8a2" },
+]
+
+[[package]]
+name = "sphinxcontrib-htmlhelp"
+version = "2.1.0"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/c9e/2916ace8aad64/sphinxcontrib_htmlhelp-2.1.0.tar.gz", hash = "sha256:c9e2916ace8aad64cc13a0d233ee22317f2b9025b9cf3295249fa985cc7082e9" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/166/759820b47002d/sphinxcontrib_htmlhelp-2.1.0-py3-none-any.whl", hash = "sha256:166759820b47002d22914d64a075ce08f4c46818e17cfc9470a9786b759b19f8" },
+]
+
+[[package]]
+name = "sphinxcontrib-jsmath"
+version = "1.0.1"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/a99/25e4a4587247e/sphinxcontrib-jsmath-1.0.1.tar.gz", hash = "sha256:a9925e4a4587247ed2191a22df5f6970656cb8ca2bd6284309578f2153e0c4b8" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/2ec/2eaebfb78f3f2/sphinxcontrib_jsmath-1.0.1-py2.py3-none-any.whl", hash = "sha256:2ec2eaebfb78f3f2078e73666b1415417a116cc848b72e5172e596c871103178" },
+]
+
+[[package]]
+name = "sphinxcontrib-qthelp"
+version = "2.0.0"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/4fe/7d0ac8fc17104/sphinxcontrib_qthelp-2.0.0.tar.gz", hash = "sha256:4fe7d0ac8fc171045be623aba3e2a8f613f8682731f9153bb2e40ece16b9bbab" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/b18/a828cdba941cc/sphinxcontrib_qthelp-2.0.0-py3-none-any.whl", hash = "sha256:b18a828cdba941ccd6ee8445dbe72ffa3ef8cbe7505d8cd1fa0d42d3f2d5f3eb" },
+]
+
+[[package]]
+name = "sphinxcontrib-serializinghtml"
+version = "2.0.0"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/e9d/912827f872c02/sphinxcontrib_serializinghtml-2.0.0.tar.gz", hash = "sha256:e9d912827f872c029017a53f0ef2180b327c3f7fd23c87229f7a8e8b70031d4d" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/6e2/cb0eef194e10c/sphinxcontrib_serializinghtml-2.0.0-py3-none-any.whl", hash = "sha256:6e2cb0eef194e10c27ec0023bfeb25badbbb5868244cf5bc5bdc04e4464bf331" },
+]
+
+[[package]]
+name = "urllib3"
+version = "2.2.3"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/e7d/814a81dad81e6/urllib3-2.2.3.tar.gz", hash = "sha256:e7d814a81dad81e6caf2ec9fdedb284ecc9c73076b62654547cc64ccdcae26e9" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/ca8/99ca043dcb1ba/urllib3-2.2.3-py3-none-any.whl", hash = "sha256:ca899ca043dcb1bafa3e262d73aa25c465bfb49e0bd9dd5d59f1d0acba2f8fac" },
+]
