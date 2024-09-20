@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "sphinx-autoapi>=3.3.1",
     "sphinx-paramlinks>=0.6.0",
-    "sphinx>=8.0.2",
+    "sphinx>=8,<9",
 ]

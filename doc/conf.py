@@ -14,7 +14,11 @@ release = '2024'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+  "sphinx.ext.autodoc",
+  "sphinx_paramlinks",
+  "autoapi.extension",
+]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -26,3 +30,16 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+# Set default role so `stuff` is enough to reference something:
+default_role = "any"
+
+# sphinx-paramlinks settings:
+paramlinks_hyperlink_param='name'
+
+# For autodoc:
+import sys, os
+sys.path.insert(0, os.path.abspath('../src'))
+
+# For sphinx-autoapi:
+autoapi_dirs = ['../src/auto']

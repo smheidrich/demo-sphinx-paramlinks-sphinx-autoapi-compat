@@ -3,11 +3,20 @@ requires-python = ">=3.12"
 
 [[package]]
 name = "alabaster"
-version = "1.0.0"
+version = "0.7.16"
 source = { registry = "http://localhost:3141/root/pypi/+simple/" }
-sdist = { url = "http://localhost:3141/root/pypi/+f/c00/dca57bca26fa6/alabaster-1.0.0.tar.gz", hash = "sha256:c00dca57bca26fa62a6d7d0a9fcce65f3e026e9bfe33e9c538fd3fbb2144fd9e" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/75a/8b99c28a5dad5/alabaster-0.7.16.tar.gz", hash = "sha256:75a8b99c28a5dad50dd7f8ccdd447a121ddb3892da9e53d1ca5cca3106d58d65" }
 wheels = [
-    { url = "http://localhost:3141/root/pypi/+f/fc6/786402dc3fcb2/alabaster-1.0.0-py3-none-any.whl", hash = "sha256:fc6786402dc3fcb2de3cabd5fe455a2db534b371124f1f21de8731783dec828b" },
+    { url = "http://localhost:3141/root/pypi/+f/b46/733c07dce03ae/alabaster-0.7.16-py3-none-any.whl", hash = "sha256:b46733c07dce03ae4e150330b975c75737fa60f0a7c591b6c8bf4928a28e2c92" },
+]
+
+[[package]]
+name = "astroid"
+version = "3.3.3"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/63f/8c5370d9bad82/astroid-3.3.3.tar.gz", hash = "sha256:63f8c5370d9bad8294163c87b2d440a7fdf546be6c72bbeac0549c93244dbd72" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/2d7/9acfd3c594b6a/astroid-3.3.3-py3-none-any.whl", hash = "sha256:2d79acfd3c594b6a2d4141fea98a1d62ab4a52e54332b1f1ddcf07b652cc5c0f" },
 ]
 
 [[package]]
@@ -137,6 +146,32 @@ wheels = [
 ]
 
 [[package]]
+name = "pyyaml"
+version = "6.0.2"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+sdist = { url = "http://localhost:3141/root/pypi/+f/d58/4d9ec91ad6586/pyyaml-6.0.2.tar.gz", hash = "sha256:d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/c70/c95198c015b85/PyYAML-6.0.2-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:c70c95198c015b85feafc136515252a261a84561b7b1d51e3384e0655ddf25ab" },
+    { url = "http://localhost:3141/root/pypi/+f/ce8/26d6ef20b1bc8/PyYAML-6.0.2-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:ce826d6ef20b1bc864f0a68340c8b3287705cae2f8b4b1d932177dcc76721725" },
+    { url = "http://localhost:3141/root/pypi/+f/1f7/1ea527786de97/PyYAML-6.0.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1f71ea527786de97d1a0cc0eacd1defc0985dcf6b3f17bb77dcfc8c34bec4dc5" },
+    { url = "http://localhost:3141/root/pypi/+f/9b2/2676e8097e9e2/PyYAML-6.0.2-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:9b22676e8097e9e22e36d6b7bda33190d0d400f345f23d4065d48f4ca7ae0425" },
+    { url = "http://localhost:3141/root/pypi/+f/80b/ab7bfc6298824/PyYAML-6.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:80bab7bfc629882493af4aa31a4cfa43a4c57c83813253626916b8c7ada83476" },
+    { url = "http://localhost:3141/root/pypi/+f/083/3f8694549e586/PyYAML-6.0.2-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:0833f8694549e586547b576dcfaba4a6b55b9e96098b36cdc7ebefe667dfed48" },
+    { url = "http://localhost:3141/root/pypi/+f/8b9/c7197f7cb2738/PyYAML-6.0.2-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:8b9c7197f7cb2738065c481a0461e50ad02f18c78cd75775628afb4d7137fb3b" },
+    { url = "http://localhost:3141/root/pypi/+f/ef6/107725bd54b26/PyYAML-6.0.2-cp312-cp312-win32.whl", hash = "sha256:ef6107725bd54b262d6dedcc2af448a266975032bc85ef0172c5f059da6325b4" },
+    { url = "http://localhost:3141/root/pypi/+f/7e7/401d0de89a9a8/PyYAML-6.0.2-cp312-cp312-win_amd64.whl", hash = "sha256:7e7401d0de89a9a855c839bc697c079a4af81cf878373abd7dc625847d25cbd8" },
+    { url = "http://localhost:3141/root/pypi/+f/efd/ca5630322a107/PyYAML-6.0.2-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:efdca5630322a10774e8e98e1af481aad470dd62c3170801852d752aa7a783ba" },
+    { url = "http://localhost:3141/root/pypi/+f/501/87695423ffe49/PyYAML-6.0.2-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:50187695423ffe49e2deacb8cd10510bc361faac997de9efef88badc3bb9e2d1" },
+    { url = "http://localhost:3141/root/pypi/+f/0ff/e8360bab4910e/PyYAML-6.0.2-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0ffe8360bab4910ef1b9e87fb812d8bc0a308b0d0eef8c8f44e0254ab3b07133" },
+    { url = "http://localhost:3141/root/pypi/+f/17e/311b6c6782079/PyYAML-6.0.2-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:17e311b6c678207928d649faa7cb0d7b4c26a0ba73d41e99c4fff6b6c3276484" },
+    { url = "http://localhost:3141/root/pypi/+f/70b/189594dbe54f7/PyYAML-6.0.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:70b189594dbe54f75ab3a1acec5f1e3faa7e8cf2f1e08d9b561cb41b845f69d5" },
+    { url = "http://localhost:3141/root/pypi/+f/41e/4e3953a79407c/PyYAML-6.0.2-cp313-cp313-musllinux_1_1_aarch64.whl", hash = "sha256:41e4e3953a79407c794916fa277a82531dd93aad34e29c2a514c2c0c5fe971cc" },
+    { url = "http://localhost:3141/root/pypi/+f/68c/cc6023a340087/PyYAML-6.0.2-cp313-cp313-musllinux_1_1_x86_64.whl", hash = "sha256:68ccc6023a3400877818152ad9a1033e3db8625d899c72eacb5a668902e4d652" },
+    { url = "http://localhost:3141/root/pypi/+f/bc2/fa7c6b47d6bc6/PyYAML-6.0.2-cp313-cp313-win32.whl", hash = "sha256:bc2fa7c6b47d6bc618dd7fb02ef6fdedb1090ec036abab80d4681424b84c1183" },
+    { url = "http://localhost:3141/root/pypi/+f/838/8ee1976c41673/PyYAML-6.0.2-cp313-cp313-win_amd64.whl", hash = "sha256:8388ee1976c416731879ac16da0aff3f63b286ffdd57cdeb95f3f2e085687563" },
+]
+
+[[package]]
 name = "requests"
 version = "2.32.3"
 source = { registry = "http://localhost:3141/root/pypi/+simple/" }
@@ -188,6 +223,21 @@ wheels = [
 ]
 
 [[package]]
+name = "sphinx-autoapi"
+version = "3.3.1"
+source = { registry = "http://localhost:3141/root/pypi/+simple/" }
+dependencies = [
+    { name = "astroid" },
+    { name = "jinja2" },
+    { name = "pyyaml" },
+    { name = "sphinx" },
+]
+sdist = { url = "http://localhost:3141/root/pypi/+f/e44/a225827d0ef71/sphinx_autoapi-3.3.1.tar.gz", hash = "sha256:e44a225827d0ef7178748225a66f30c95454dfd00ee3c22afbdfb8056f7dffb5" }
+wheels = [
+    { url = "http://localhost:3141/root/pypi/+f/c31/a5f41eabc9705/sphinx_autoapi-3.3.1-py2.py3-none-any.whl", hash = "sha256:c31a5f41eabc9705d277b75f98e983d653e9af24e294dd576b2afa1719f72c1f" },
+]
+
+[[package]]
 name = "sphinx-paramlinks"
 version = "0.6.0"
 source = { registry = "http://localhost:3141/root/pypi/+simple/" }
@@ -203,12 +253,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "sphinx" },
+    { name = "sphinx-autoapi" },
     { name = "sphinx-paramlinks" },
 ]
 
 [package.metadata]
 requires-dist = [
-    { name = "sphinx", specifier = ">=8.0.2" },
+    { name = "sphinx", specifier = ">=8,<9" },
+    { name = "sphinx-autoapi", specifier = ">=3.3.1" },
     { name = "sphinx-paramlinks", specifier = ">=0.6.0" },
 ]
 
