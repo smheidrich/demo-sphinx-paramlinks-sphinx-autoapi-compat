@@ -6,6 +6,9 @@
 sphinx-paramlinks-sphinx-autoapi-compat
 =======================================
 
+**Source repo:**
+`demo-sphinx-paramlinks-sphinx-autoapi-compat <https://github.com/smheidrich/demo-sphinx-paramlinks-sphinx-autoapi-compat>`_
+
 In these docs, you'll find demonstrations showing that linking to a parameter
 from within the same docstring in which it appears without qualifying it with
 its function name using sphinx-paramlinks...
